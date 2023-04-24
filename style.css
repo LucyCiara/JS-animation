@@ -1,0 +1,175 @@
+body {
+    background-color: #555;
+}
+
+#canvas {
+    background-color:#000;
+    margin-left:100px;
+}
+
+
+#borderSide{
+    background-color: rgb(226, 224, 216);
+    width: 204px;
+    height: 104px;
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+
+#borderSidez{
+    opacity: 0;
+    background-color: rgb(226, 224, 216);
+    width: 204px;
+    height: 104px;
+    position: absolute;
+    left: 890px;
+    top: 480px;
+}
+
+
+
+
+.borderTop{
+    background-color: rgb(240, 244, 240);
+    width: 204px;
+    height: 2px;
+}
+.borderCornerTop{
+    background-color: rgb(233, 234, 228);
+    width: 1px;
+    height: 1px;
+    position: absolute;
+}
+#borderBlend{
+    top: 1px;
+    background-color: rgb(226, 224, 216);
+}
+#borderCornerTop2{
+    top: 1px;
+    left: 1px;
+}
+#borderCornerTop3{
+    left: 203px;
+}
+#borderCornerTop4{
+    top: 1px;
+    left: 202px;
+}
+#borderBlend2{
+    top: 1px;
+    left: 203px;
+    background-color: rgb(226, 224, 216);
+}
+.borderBottom{
+    background-color: rgb(87, 86, 85);
+    width: 204px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.borderCornerBottom{
+    background-color: rgb(206, 203, 201);
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+}
+#borderBlendB{
+    bottom: 1px;
+    background-color: rgb(216, 214, 209);
+}
+#borderCornerBottom2{
+    bottom: 1px;
+    left: 1px;
+}
+#borderCornerBottom3{
+    left: 203px;
+}
+#borderCornerBottom4{
+    bottom: 1px;
+    left: 202px;
+}
+#borderBlendB2{
+    bottom: 1px;
+    left: 203px;
+    background-color: rgb(216, 214, 209);
+}
+
+
+#content{
+    background-color: rgb(215, 212, 204);
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.tab {
+    background-color: rgb(70, 100, 160);
+    width: 200px;
+    height: 11px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+#xbutton{
+    top: -3;
+    right: -3;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+}
+#xbutton2{
+    top: -3;
+    right: -3;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+}
+#x{
+    background-color: crimson;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+#picture{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    height: 5px;
+    width: 5px;
+}
+.text{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+#main{
+    position: absolute;
+    top: 23px;
+    left: 10px;
+}
+#button{
+    height:25px;
+    width:50px;
+    position:absolute;
+    top:60px;
+    left:75;
+    border-color:black;
+    border-width: 1px;
+    border-style: solid;
+}
+#OK{
+    height: 25px;
+    width:50px;
+    top:-10px;
+    left:12px;
+}
+
